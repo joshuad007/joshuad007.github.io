@@ -1,0 +1,42 @@
+h1, h2 {
+    font-family: 'Roboto Black';
+}
+
+a, a:hover, a.head:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.head {
+    vertical-align:auto;
+    align-content: center;
+    display: table-cell;
+}
+
+a.head {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    padding: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    transition: color 150ms ease-out 100ms
+}
+
+a.head:hover {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    color:#024ec4ff;
+}
+
+span.head {
+    vertical-align: middle;
+    display: table-cell;
+}
