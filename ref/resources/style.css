@@ -40,3 +40,7 @@ span.head {
     vertical-align: middle;
     display: table-cell;
 }
+
+body {
+    background-color: rgb(220, 220, 220);
+}
